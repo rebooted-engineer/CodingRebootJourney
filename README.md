@@ -141,7 +141,7 @@ The experience is still there. The syntax is being refreshed. The industry chang
 
 | Platform | What I post |
 |----------|-------------|
-| [Hashnode](https://rebooted-engineer.hashnode.dev) | Weekly blog — concepts explained honestly |
+| [Hashnode](https://hashnode.com/@rebooted-engineer) | Weekly blog — concepts explained honestly |
 | [LinkedIn](https://linkedin.com/in/muqaddasrashid) | 3x/week — lessons, progress, thoughts |
 | [Instagram](https://instagram.com/rebooted_engineer) | Daily — code screenshots, quick wins |
 | GitHub | Every day — commits don't lie |
