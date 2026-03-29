@@ -1,153 +1,155 @@
 # CodingRebootJourney
 
-> *"This isn't just a comeback — it's a transformation."*
-
 [![Blog](https://img.shields.io/badge/Blog-rebooted--engineer.hashnode.dev-2962FF?style=flat-square&logo=hashnode&logoColor=white)](https://rebooted-engineer.hashnode.dev)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-muqaddasrashid-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/muqaddasrashid)
-[![Profile Views](https://komarev.com/ghpvc/?username=rebooted_engineer&style=flat-square&color=7F77DD&label=profile+views)](https://github.com/rebooted_engineer)
 
 ---
 
-## Who this is
+```bash
+$ whoami
+muqaddas_rashid
 
-I'm **Muqaddas Rashid** — a software engineer with 5+ years of production AI experience who took a career break to be a mom, and came back to find the entire industry had transformed around AI.
+$ cat story.txt
+Software engineer. 5+ years in production AI.
+Took a break to be a mom.
+Came back to find the whole industry had changed.
+Decided to rebuild — from scratch, in public.
 
-So I'm rebuilding. Intentionally. In public.
+$ python --version
+Python 3.12.3  # back at it
 
-This repository is the raw, unfiltered record of that rebuild — every concept learned, every project built, every mistake made and fixed. Written for anyone else who is returning to tech, rebuilding after a gap, or just needs to see someone doing it in real time.
-
-📝 I write about everything I learn at **[rebooted-engineer.hashnode.dev](https://rebooted-engineer.hashnode.dev)**
-
----
-
-## The path
-
-```
-Backend Engineer (5yr, NLP/AI)
-        ↓
-Career break — motherhood
-        ↓
-Python internals → Clean architecture → REST APIs
-        ↓
-Databases → DevOps → Docker → CI/CD
-        ↓
-LLM integration → RAG → AI engineering
-        ↓
-Senior Backend / AI Engineer  ← destination
+$ git log --oneline
+a3f92c1  rebooted — you are here
 ```
 
 ---
 
-## What's in this repo
+## What is this repo?
+
+The raw, unfiltered record of rebuilding a software engineering career in the middle of an AI revolution.
+
+Not a polished tutorial series. Not curated highlights.
+Every bug. Every confusion. Every thing that finally clicked at 11pm.
+
+I document everything I learn on my blog at **[rebooted-engineer.hashnode.dev](https://rebooted-engineer.hashnode.dev)** — if you want the written version of what's happening in these commits, that's where to go.
+
+---
+
+## The roadmap
+
+This repo follows a structured backend developer roadmap. Everything is organised by section and week.
+
+📋 **[View the full roadmap →](./roadmaps/backend-roadmap.md)**
+📊 **[Track my progress →](./roadmaps/python-tracker.md)**
+📅 **[Week-by-week plan →](./roadmaps/week-by-week-plan.md)**
+
+```
+Section 01 — Python Core          🔄 Week 1-2
+Section 02 — OOP & Design         📋 Week 3-4
+Section 03 — Data & Files         📋 Week 5
+Section 04 — Web & APIs           📋 Week 6-7
+Section 05 — Databases            📋 Week 8-9
+Section 06 — DevOps               📋 Week 10-11
+Section 07 — Testing              📋 Week 12
+Section 08 — AI & LLMs            📋 Week 13-14
+```
+
+---
+
+## Repo structure
 
 ```
 CodingRebootJourney/
 │
-├── python-fundamentals/     # Core Python — exercises, notes, experiments
-│   ├── comprehensions/
-│   ├── decorators/
-│   ├── generators/
-│   └── oop/
+├── roadmaps/                 # The plan — roadmap, tracker, schedule
 │
-├── projects/                # Real projects, built from scratch
-│   ├── contacts-book/       ✅ CLI app — OOP, JSON, regex validation
-│   ├── expense-tracker/     🔄 In progress — dataclasses, datetime, defaultdict
-│   └── ...more coming
+├── week-01/                  # Python core — args, decorators, generators
+├── week-02/                  # OOP — classes, dataclasses, patterns
+├── week-03/                  # ...and so on
 │
-├── exercises/               # Daily practice — one concept per file
-│   ├── week-01/
-│   ├── week-02/
-│   └── ...
+├── projects/
+│   ├── contacts-book/        ✅ Done — CLI, OOP, JSON, regex
+│   ├── expense-tracker/      🔄 Building — dataclasses, datetime
+│   └── ...12 more planned
 │
-├── leetcode/                # Algorithm practice — solving daily
-│   ├── easy/
-│   └── medium/
+├── exercises/                # 3 exercises per subtopic from the roadmap
 │
-└── resources.md             # Curated links to what's actually helped
+└── leetcode/                 # Daily algorithm practice
+    ├── easy/
+    └── medium/
 ```
 
 ---
 
 ## Projects
 
-| Project | Stack | Status | Blog post |
-|---------|-------|--------|-----------|
-| [Contacts Book CLI](./projects/contacts-book) | Python · JSON · OOP | ✅ Complete | [Read →](https://rebooted-engineer.hashnode.dev) |
-| [Expense Tracker CLI](./projects/expense-tracker) | Python · dataclasses · sqlite | 🔄 Building | Coming soon |
-| REST API — Notes App | FastAPI · PostgreSQL · JWT | 📋 Planned | — |
-| Personal Website | Flask · Python | 📋 Planned | — |
+| # | Project | Stack | Status |
+|---|---------|-------|--------|
+| 01 | [Contacts Book CLI](./projects/contacts-book) | Python · JSON · OOP · regex | ✅ Shipped |
+| 02 | [Expense Tracker CLI](./projects/expense-tracker) | Python · dataclasses · sqlite | 🔄 Building |
+| 03 | REST API — Notes App | FastAPI · PostgreSQL · JWT | 📋 Next |
+| 04 | URL Shortener | FastAPI · Redis · PostgreSQL | 📋 Planned |
+| 05 | Web Scraper + Pipeline | aiohttp · BeautifulSoup · CSV | 📋 Planned |
+| ... | 10 more | increasingly complex stack | 📋 Planned |
 
 ---
 
-## Current focus
+## How I actually learn
 
 ```python
-currently_learning = [
-    "Python internals — decorators, generators, context managers",
-    "OOP design patterns — SOLID principles",
-    "Dataclasses and type hints",
-    "Building in public — writing weekly on Hashnode",
-]
-
-next_up = [
-    "FastAPI and REST API design",
-    "PostgreSQL and SQLAlchemy",
-    "Docker and deployment",
-    "LLM integration and RAG",
-]
+def my_learning_process(concept):
+    attempt = write_it_without_googling(concept)    # always first
+    brute_force = make_it_work(attempt)              # correctness before elegance
+    clean = ask_ai_to_review(brute_force)            # "what would a senior dev change?"
+    understanding = study_the_diff(brute_force, clean)
+    blog_post = explain_it_to_someone_else(understanding)
+    return understanding  # the only thing that actually sticks
 ```
 
 ---
 
-## How I learn
+## Commit streak
 
-**Rule 1 — Write it before you look it up.**
-Every exercise in this repo was attempted without searching first. The struggle is the learning.
+Every day. Even if it's just one exercise.
+Green squares are accountability.
 
-**Rule 2 — Brute force first, then clean it up.**
-First make it work. Then make it good. Never the other way around.
-
-**Rule 3 — Use AI as a reviewer, not a writer.**
-I write the code. Then I ask Claude: *"What would a senior dev change about this?"* The diff is what I learn from.
-
-**Rule 4 — Document the confusion, not just the solution.**
-The blog posts here aren't tutorials. They're honest accounts of what confused me and what finally made it click.
+```
+Jan  ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+Feb  ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+Mar  ██████████████████████░░░░░░░░░
+         ↑ rebooted
+```
 
 ---
 
-## Weekly cadence
+## This week
 
-| Day | Focus |
-|-----|-------|
-| Mon–Wed | Deep learning + building |
-| Thu | Blog post — one concept explained |
-| Fri | Project work + GitHub polish |
-| Sat | LeetCode + week review |
-| Sun | Rest |
+> 📌 Currently on: **Section 01 — Python Core**
+> See [week-01/README.md](./week-01/README.md) for this week's topics and progress.
 
 ---
 
-## Background
+## Before the break
 
-Before the break, I spent 5+ years at **ADDO AI** building:
-- Banking chatbots for BCA Indonesia handling real financial transactions
-- E-ticketing automation for CDG Taxi Singapore
-- University admissions platform serving 10,000+ students
-- Real-time customer service dashboard with ML-powered reply suggestions
+5+ years building production AI systems at an AI product company — conversational AI for banking, transportation, and education sectors across Southeast Asia. NLP · Node.js · Google Cloud Platform · Socket.IO.
 
-**Stack then:** Node.js · Dialogflow · Google Cloud Platform · Socket.IO · NLP
-
-**Stack now (rebuilding):** Python · FastAPI · PostgreSQL · Docker · LLM APIs
+The experience is still there. The syntax is being refreshed. The industry changed completely. That's what this is about.
 
 ---
 
-## Follow along
+## Follow the journey
 
-- **Blog** — weekly posts at [rebooted-engineer.hashnode.dev](https://rebooted-engineer.hashnode.dev)
-- **LinkedIn** — [muqaddasrashid](https://linkedin.com/in/muqaddasrashid) — posting 3x/week
-- **GitHub** — you're already here — watch the commit streak
+| Platform | What I post |
+|----------|-------------|
+| [Hashnode](https://rebooted-engineer.hashnode.dev) | Weekly blog — concepts explained honestly |
+| [LinkedIn](https://linkedin.com/in/muqaddasrashid) | 3x/week — lessons, progress, thoughts |
+| [Instagram](https://instagram.com/rebooted_engineer) | Daily — code screenshots, quick wins |
+| GitHub | Every day — commits don't lie |
 
-If you're rebuilding too — you're not alone. The gap doesn't define you. What you do next does.
+---
+
+*If you're rebuilding too — you're not alone.*
+*The gap doesn't define you. What you do next does.*
 
 ---
 
